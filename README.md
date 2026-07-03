@@ -10,8 +10,12 @@ I use it to:
 
 This is an ongoing learning collection, updated as I explore more topics.
 
-## Today
+## Daily Log
 
-Date: 2026-07-03
+### 2026-07-01
+
+Topic done today: Arrays - 2D arrays, matrix operations, and rotations
+
+### 2026-07-03
 
 Topic done today: Arrays - 2D arrays, matrix traversal, Pascal's triangle, saddle point, matrix search, and zeroing
