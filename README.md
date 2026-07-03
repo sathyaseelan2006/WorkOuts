@@ -21,3 +21,5 @@ Topic done today: Arrays - 2D arrays, matrix operations, and rotations
 Topic done today: Arrays - 2D arrays, matrix traversal, Pascal's triangle, saddle point, matrix search, and zeroing
 
 Additional change done today: PascalsTriangle now prints the triangle in a proper centered shape
+
+New file added today: PascalTriangleReturnNcR.java for finding the Pascal triangle value using NcR without building the full triangle
