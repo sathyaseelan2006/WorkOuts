@@ -19,3 +19,5 @@ Topic done today: Arrays - 2D arrays, matrix operations, and rotations
 ### 2026-07-03
 
 Topic done today: Arrays - 2D arrays, matrix traversal, Pascal's triangle, saddle point, matrix search, and zeroing
+
+Additional change done today: PascalsTriangle now prints the triangle in a proper centered shape

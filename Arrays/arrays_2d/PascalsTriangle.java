@@ -19,11 +19,23 @@ public class PascalsTriangle {
             }
             result.add(row);
         }
+        for (int i = 0; i < result.size(); i++) {
+            for (int s = 0; s < result.size() - 1 - i; s++) {
+                System.out.print(" ");
+            }
+            for (int temp : result.get(i)) {
+                System.out.print(temp + " ");
+            }
+            System.out.println();
+        }
+
         return result;
+
     }
 
     public static void main(String[] args) {
         System.out.print(PrintPascalTriangle(5));
+
     }
 
 }
