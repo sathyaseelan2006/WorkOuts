@@ -12,6 +12,6 @@ This is an ongoing learning collection, updated as I explore more topics.
 
 ## Today
 
-Date: 2026-07-01
+Date: 2026-07-03
 
-Topic done today: Arrays - 2D arrays, matrix operations, and rotations
+Topic done today: Arrays - 2D arrays, matrix traversal, Pascal's triangle, saddle point, matrix search, and zeroing

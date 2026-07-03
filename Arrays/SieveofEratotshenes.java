@@ -1,28 +1,40 @@
 import java.util.*;
+import java.util.*;
 
 public class SieveofEratotshenes {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        Boolean[] arr = new Boolean[n + 1];
-        Arrays.fill(arr, true);
-
-        if (n >= 0)
-            arr[0] = false;
-        if (n >= 1)
-            arr[1] = false;
-
-        for (int i = 2; i * i <= n; i++) {
-            if (arr[i]) {
-                for (int j = i * i; j <= n; j += i) {
-                    arr[j] = false;
-                }
+    static boolean isprime(int num) {
+        if (num == 0 || num == 1) {
+            return false;
+        }
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                return false;
             }
         }
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i]) {
-                System.out.print(i + " ");
+        return true;
+    }
+
+    static ArrayList<Integer> sieve(int n) {
+        ArrayList<Integer> l1 = new ArrayList<>();
+        for (int i = 2; i <= n; i++) {
+            if (isprime(i)) {
+                l1.add(i);
             }
+        }
+        return l1;
+    }
+
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
+        int n = sc.nextInt();
+
+        List<Integer> l1 = sieve(n);
+
+        for (int sum : l1) {
+            System.out.print(sum + " ");
         }
 
     }
