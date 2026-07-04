@@ -23,3 +23,7 @@ Topic done today: Arrays - 2D arrays, matrix traversal, Pascal's triangle, saddl
 Additional change done today: PascalsTriangle now prints the triangle in a proper centered shape
 
 New file added today: PascalTriangleReturnNcR.java for finding the Pascal triangle value using NcR without building the full triangle
+
+### 2026-07-04
+
+Files uploaded today: PascalTriangleReturnNcR.java, PascalTriangleReturnNthRow.java, Prefixsum.java
